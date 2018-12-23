@@ -12,6 +12,7 @@
     "ipfs:stop": "pkill -f 'aragon ipfs' || true",
     "dev:start": "npm run devchain:start && npm run ipfs:start",
     "dev:stop": "npm run devchain:stop && npm run ipfs:stop",
-    "dev:reset": "npm run dev:stop && npm run dev:start"
+    "dev:reset": "npm run dev:stop && npm run dev:start",
+    "bootstrap": "lerna bootstrap"
   }
 }
